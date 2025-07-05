@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1751704611978
+  login: 1751704556324
+money: '0'
+last-account-name: SangiDN
+logoutlocation:
+  world: ed30adbe-db59-44d1-880f-4847a29e0622
+  world-name: BdForest
+  x: 78.47795621123687
+  y: 146.0
+  z: 324.6804127653943
+  yaw: -250.36236572265625
+  pitch: 32.591712951660156
+lastlocation:
+  world: b8d6fdca-2ed9-4f42-aa78-9d28894a12cb
+  world-name: WdSpawn
+  x: -694.0446692980211
+  y: 57.86812511143291
+  z: -685.3396934608099
+  yaw: -144.4322052001953
+  pitch: 12.91114616394043

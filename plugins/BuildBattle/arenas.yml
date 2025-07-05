@@ -1,0 +1,60 @@
+# 
+# Don't edit it. But who's stopping you? It's your server!
+# Really, don't edit ;p
+# You edited it, huh? Next time hurt yourself!
+instances:
+  default:
+    lobbylocation: world,-1.0,80.0,7.0,0.0,0.0
+    startlocation: world,-1.0,80.0,7.0,0.0,0.0
+    endlocation: world,-1.0,80.0,7.0,0.0,0.0
+    minimumplayers: 2
+    maximumplayers: 10
+    plotmembersize: 1
+    mapname: mapname
+    world: worldname
+    gametype: classic
+    isdone: false
+    signs: {}
+    plots: {}
+  arena1:
+    isdone: true
+    startlocation: BdForest,-27.99,165.81,334.79,-270.33,79.5
+    spectatorlocation: BdForest,-26.97,184.17,333.84,-196.74,87.5
+    minimumplayers: 3
+    maximumplayers: 8
+    gametype: classic
+    plots:
+      '1':
+        '1': BdForest,1.0,132.0,396.0,0.0,0.0
+        '2': BdForest,-26.0,158.0,368.0,0.0,0.0
+      '2':
+        '1': BdForest,-31.0,132.0,396.0,0.0,0.0
+        '2': BdForest,-58.0,158.0,368.0,0.0,0.0
+      '3':
+        '1': BdForest,-59.0,158.0,365.0,0.0,0.0
+        '2': BdForest,-31.0,132.0,338.0,0.0,0.0
+      '4':
+        '1': BdForest,-27.0,158.0,365.0,0.0,0.0
+        '2': BdForest,1.0,132.0,338.0,0.0,0.0
+      '5':
+        '1': BdForest,2.0,158.0,334.0,0.0,0.0
+        '2': BdForest,-25.0,132.0,306.0,0.0,0.0
+      '6':
+        '1': BdForest,-31.0,132.0,306.0,0.0,0.0
+        '2': BdForest,-59.0,158.0,333.0,0.0,0.0
+      '7':
+        '1': BdForest,-59.0,158.0,301.0,0.0,0.0
+        '2': BdForest,-31.0,132.0,274.0,0.0,0.0
+      '8':
+        '1': BdForest,-25.0,132.0,274.0,0.0,0.0
+        '2': BdForest,2.0,158.0,302.0,0.0,0.0
+    endlocation: BdForest,78.67,146.0,324.29,-93.49,26.05
+    signs:
+    - BdForest,88,146,324,0.0,0.0
+    - BdForest,88,146,325,0.0,0.0
+    mapname: Candy
+    lobbylocation: BdForest,79.02,146.0,325.01,-84.75,85.44
+    plotmembersize: 2
+Do-Not-Edit:
+  File-Version: 0
+  Core-Version: 1

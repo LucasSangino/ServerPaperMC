@@ -1,0 +1,52 @@
+### PRE-CONFIGURED MAPS - PROVIDED BY PLUGILY PROJECTS ###
+
+PLUGIN: The Bridge
+
+MAP: Forest
+
+Map Version: 1.1.1
+
+
+### Do not use the Map on a server with lower version than described here! [!!!Using it on a lower will crash the server!!!] ###
+Setup on Version: 1.8.9
+
+Build by: Creative Team
+Setup by: Plugily Projects
+
+Discord of *Creative Team* ->  https://discord.gg/wTeaXqK
+
+
+### HOW TO SETUP THIS PRE-CONFIGURED MAP (if you don't have any maps)###
+1. Drag and drop the content of the "Copy" folder into your server! (It contains the Map and arenas.yml file) 
+2. Done (Easy, isn't it?)
+
+
+### HOW TO SETUP THIS PRE-CONFIGURED MAP (if you have already other maps)###
+1. Drag and drop the content of the "Copy" folder into your server! (It contains the Map and arenas.yml file) 
+2. Make sure to not override the arenas.yml file
+3. Copy the arena from arenas.yml into yours
+4. Done (Easy, isn't it?)
+
+
+### DISCLAIMER | FAQ ###
+- You need to create game sign by yourself (or use the ingame editor):
+        1st line of sign - [TheBridge]
+        2nd line of sign - Forest
+    That's all!
+
+- You will probably like to change the locations of the lobby and end:
+        Therefore just open the In-Game Editor and set new locations
+    That's all!    
+
+- Is there some schematic of this map:
+        Yes its already on your worldedit folder if you followed the instructions!
+
+
+### HAVE FUN! RATE THE PLUGIN IF YOU LIKE IT! THANKS FOR USING OUR PLUGINS AND SERVICES! ###
+
+
+### LINKS ###
+Website: https://plugily.xyz
+Wiki: https://wiki.plugily.xyz
+Discord: https://discord.plugily.xyz
+Github: https://github.plugily.xyz

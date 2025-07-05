@@ -12,7 +12,7 @@ if not exist "%JAVA_HOME%\bin\java.exe" (
 )
 
 :: Configurar la cantidad de memoria RAM
-set MEMORY=-Xms1G -Xmx2G
+set MEMORY=-Xms1G -Xmx4G
 
 :: Iniciar el servidor Paper
 echo Iniciando servidor...

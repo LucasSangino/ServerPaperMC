@@ -1,0 +1,42 @@
+[01:59:45] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[01:59:45] [Server thread/INFO]: Loading properties
+[01:59:45] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Controlador no válido
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
+	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
+	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:186) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
+	at java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:179) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:142) ~[patched_1.12.2.jar:git-Paper-1620]
+	at net.minecraft.server.v1_12_R1.DedicatedServer$2.run(DedicatedServer.java:77) ~[patched_1.12.2.jar:git-Paper-1620]
+	Suppressed: java.io.IOException: Controlador no válido
+		at java.io.FileDescriptor.close0(Native Method) ~[?:?]
+		at java.io.FileDescriptor.close(FileDescriptor.java:304) ~[?:?]
+		at java.io.FileInputStream$1.close(FileInputStream.java:524) ~[?:?]
+		at java.io.FileDescriptor.closeAll(FileDescriptor.java:362) ~[?:?]
+		at java.io.FileInputStream.close(FileInputStream.java:522) ~[?:?]
+		at java.io.BufferedInputStream.close(BufferedInputStream.java:618) ~[?:?]
+		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:445) ~[?:?]
+		at sun.nio.cs.StreamDecoder.lockedClose(StreamDecoder.java:266) ~[?:?]
+		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:251) ~[?:?]
+		at java.io.InputStreamReader.close(InputStreamReader.java:201) ~[?:?]
+		at java.io.BufferedReader.implClose(BufferedReader.java:636) ~[?:?]
+		at java.io.BufferedReader.close(BufferedReader.java:621) ~[?:?]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:182) ~[patched_1.12.2.jar:git-Paper-1620]
+		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:142) ~[patched_1.12.2.jar:git-Paper-1620]
+		at net.minecraft.server.v1_12_R1.DedicatedServer$2.run(DedicatedServer.java:77) ~[patched_1.12.2.jar:git-Paper-1620]
+[01:59:45] [Server thread/WARN]: server.properties does not exist
+[01:59:45] [Server thread/INFO]: Generating new properties file
+[01:59:45] [Server thread/WARN]: Failed to load eula.txt
+[01:59:45] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[01:59:45] [Server thread/INFO]: Stopping server

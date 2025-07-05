@@ -1,42 +1,113 @@
-[01:59:45] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[01:59:45] [Server thread/INFO]: Loading properties
-[01:59:45] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
-java.io.IOException: Controlador no válido
-	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
-	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:345) ~[?:?]
-	at java.io.BufferedInputStream.implRead(BufferedInputStream.java:420) ~[?:?]
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:399) ~[?:?]
-	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:350) ~[?:?]
-	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:393) ~[?:?]
-	at sun.nio.cs.StreamDecoder.lockedRead(StreamDecoder.java:217) ~[?:?]
-	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:171) ~[?:?]
-	at java.io.InputStreamReader.read(InputStreamReader.java:186) ~[?:?]
-	at java.io.BufferedReader.fill(BufferedReader.java:160) ~[?:?]
-	at java.io.BufferedReader.implReadLine(BufferedReader.java:370) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:347) ~[?:?]
-	at java.io.BufferedReader.readLine(BufferedReader.java:436) ~[?:?]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:179) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:142) ~[patched_1.12.2.jar:git-Paper-1620]
-	at net.minecraft.server.v1_12_R1.DedicatedServer$2.run(DedicatedServer.java:77) ~[patched_1.12.2.jar:git-Paper-1620]
-	Suppressed: java.io.IOException: Controlador no válido
-		at java.io.FileDescriptor.close0(Native Method) ~[?:?]
-		at java.io.FileDescriptor.close(FileDescriptor.java:304) ~[?:?]
-		at java.io.FileInputStream$1.close(FileInputStream.java:524) ~[?:?]
-		at java.io.FileDescriptor.closeAll(FileDescriptor.java:362) ~[?:?]
-		at java.io.FileInputStream.close(FileInputStream.java:522) ~[?:?]
-		at java.io.BufferedInputStream.close(BufferedInputStream.java:618) ~[?:?]
-		at sun.nio.cs.StreamDecoder.implClose(StreamDecoder.java:445) ~[?:?]
-		at sun.nio.cs.StreamDecoder.lockedClose(StreamDecoder.java:266) ~[?:?]
-		at sun.nio.cs.StreamDecoder.close(StreamDecoder.java:251) ~[?:?]
-		at java.io.InputStreamReader.close(InputStreamReader.java:201) ~[?:?]
-		at java.io.BufferedReader.implClose(BufferedReader.java:636) ~[?:?]
-		at java.io.BufferedReader.close(BufferedReader.java:621) ~[?:?]
-		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:182) ~[patched_1.12.2.jar:git-Paper-1620]
-		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:142) ~[patched_1.12.2.jar:git-Paper-1620]
-		at net.minecraft.server.v1_12_R1.DedicatedServer$2.run(DedicatedServer.java:77) ~[patched_1.12.2.jar:git-Paper-1620]
-[01:59:45] [Server thread/WARN]: server.properties does not exist
-[01:59:45] [Server thread/INFO]: Generating new properties file
-[01:59:45] [Server thread/WARN]: Failed to load eula.txt
-[01:59:45] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
-[01:59:45] [Server thread/INFO]: Stopping server
+[02:54:41] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[02:54:41] [Server thread/INFO]: Loading properties
+[02:54:41] [Server thread/INFO]: Default game type: SURVIVAL
+[02:54:41] [Server thread/INFO]: This server is running Paper version git-Paper-1620 (MC: 1.12.2) (Implementing API version 1.12.2-R0.1-SNAPSHOT)
+[02:54:41] [Server thread/INFO]: Debug logging is disabled
+[02:54:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:54:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:54:41] [Server thread/INFO]: Generating keypair
+[02:54:41] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:54:41] [Server thread/INFO]: Using default channel type
+[02:54:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:54:42] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[02:54:42] [Server thread/INFO]: Preparing level "world"
+[02:54:42] [Server thread/INFO]: -------- World Settings For [world] --------
+[02:54:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:54:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:54:42] [Server thread/INFO]: View Distance: 10
+[02:54:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:54:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:54:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:54:42] [Server thread/INFO]: Mob Spawn Range: 4
+[02:54:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:54:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:54:42] [Server thread/INFO]: Random Lighting Updates: false
+[02:54:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:54:42] [Server thread/INFO]: Structure Info Saving: true
+[02:54:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:54:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:54:42] [Server thread/INFO]: Max TNT Explosions: 100
+[02:54:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:54:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:54:42] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[02:54:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:54:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:54:42] [Server thread/INFO]: View Distance: 10
+[02:54:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:54:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:54:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:54:42] [Server thread/INFO]: Mob Spawn Range: 4
+[02:54:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:54:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:54:42] [Server thread/INFO]: Random Lighting Updates: false
+[02:54:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:54:42] [Server thread/INFO]: Structure Info Saving: true
+[02:54:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:54:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:54:42] [Server thread/INFO]: Max TNT Explosions: 100
+[02:54:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:54:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:54:42] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[02:54:42] [Server thread/INFO]: Item Merge Radius: 2.5
+[02:54:42] [Server thread/INFO]: Item Despawn Rate: 6000
+[02:54:42] [Server thread/INFO]: View Distance: 10
+[02:54:42] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:54:42] [Server thread/INFO]: Experience Merge Radius: 3.0
+[02:54:42] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[02:54:42] [Server thread/INFO]: Mob Spawn Range: 4
+[02:54:42] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:54:42] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Cane Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Melon Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Vine Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[02:54:42] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16 / Tiv true
+[02:54:42] [Server thread/INFO]: Random Lighting Updates: false
+[02:54:42] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:54:42] [Server thread/INFO]: Structure Info Saving: true
+[02:54:42] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617 Monument: 10387313 Slime: 987234911
+[02:54:42] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:54:42] [Server thread/INFO]: Max TNT Explosions: 100
+[02:54:42] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[02:54:42] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[02:54:42] [Server thread/INFO]: Preparing start region for level 0 (Seed: 511540426242069584)
+[02:54:43] [Server thread/INFO]: Preparing start region for level 1 (Seed: 511540426242069584)
+[02:54:43] [Server thread/INFO]: Preparing start region for level 2 (Seed: 511540426242069584)
+[02:54:43] [Server thread/INFO]: Done (1,446s)! For help, type "help" or "?"
+[02:54:43] [Server thread/INFO]: Timings Reset
+[02:57:38] [User Authenticator #1/INFO]: UUID of player SangiDN is a6340948-ada3-473d-ad70-c8b5118c24bb
+[02:57:38] [Server thread/INFO]: SangiDN[/127.0.0.1:63666] logged in with entity id 159 at ([world]78.24522805452766, 65.0, 308.30000001192093)
+[02:57:42] [Server thread/INFO]: SangiDN lost connection: Disconnected
+[02:57:42] [Server thread/INFO]: SangiDN left the game
+[03:01:18] [Server thread/INFO]: Stopping the server
+[03:01:18] [Server thread/INFO]: Stopping server
+[03:01:18] [Server thread/INFO]: Saving players
+[03:01:18] [Server thread/INFO]: Saving worlds
+[03:01:18] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[03:01:18] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
+[03:01:18] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
